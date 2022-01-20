@@ -20,13 +20,16 @@ a {
 a:hover {
    color: blueviolet!important;
 }
+p {
+   font-family: 'Roboto', sans-serif;
+}
 
 /* navbar css */
 #navbar {
    transition: all .5s;
 }
 #navbar .links {
-   margin: 1em 0;
+   margin: 1em;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -35,6 +38,7 @@ a:hover {
 #navbar .links a {
    color: rgba(255, 255, 255, 0.911);
    margin: 0 10px;
+   text-align: center;
 }
 #navbar span {
    color: rgba(255, 255, 255, 0.301);
@@ -42,11 +46,21 @@ a:hover {
 
 /* main css */
 #content .section {
-   min-height: 200px;
+   margin: 3em 1em;
+}
+#content .wrapper {
+   margin: 0 1em;
+   text-align: justify;
+   text-justify: inter-word;
+}
+#contactme .wrapper {
+   display: inline-flex;
+   column-gap: .7em;
 }
 
 /* footer css */
 #footer {
+   margin-top: 1em;
    height: 2em;
    text-align: center;
    color: rgba(255, 255, 255, 0.301)
