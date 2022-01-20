@@ -1,0 +1,26 @@
+Hello > Who I am > Things I've done > Things I'm doing > Contact me
+
+(Hello ->)
+Ciao,
+sono Edoardo Alberti, ho 22 anni e attualmente
+${profession} (-> studio Ingengeria Informatica al Politecnico di Torino)
+
+(Who I am ->)
+Sono un ragazzo nato e cresciuto tra le montagne biellesi (in Piemonte)
+e che, fin da piccolo, coltiva una grande passione per tutto ciò che
+funziona ad elettricità.
+
+Il mio perorso inizia nel 2002, all'età di 3 anni, quando per la prima volta
+mia mamma mettendomi davanti ad un PC mi insegnò a giocare a Spyro
+(rigorosamente emulato), da lì è stato un percorso in discesa.
+
+
+(Things I've done ->)
+(Things I'm doing ->)
+
+(Contact me ->)
+spotify
+instagram
+github
+telegram
+email

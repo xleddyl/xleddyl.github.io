@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+   width: 5px;
+}
+::-webkit-scrollbar-track {
+   background: #08070f;
+}
+::-webkit-scrollbar-thumb {
+   background: rgba(255, 255, 255, 0.301);
+   border-radius: 50px;
+}
+body {
+   font-family: 'Ubuntu Mono', monospace;
+   background-color: #08070f;
+   color: white;
+   overflow-x: hidden;
+}
+a {
+   text-decoration: none;
+}
+a:hover {
+   color: blueviolet!important;
+}
+
+/* navbar css */
+#navbar {
+   transition: all .5s;
+}
+#navbar .links {
+   margin: 1em 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+#navbar .links a {
+   color: rgba(255, 255, 255, 0.911);
+   margin: 0 10px;
+}
+#navbar span {
+   color: rgba(255, 255, 255, 0.301);
+}
+
+/* main css */
+#content .section {
+   min-height: 200px;
+}
+
+/* footer css */
+#footer {
+   height: 2em;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.301)
+}
+#footer a {
+   color: rgba(255, 255, 255, 0.301)
+}
+
+@media (max-width:710px) {
+   /*#navbar {
+      width: 100vh;
+      position: absolute;
+      vertical-align: top;
+      transform: translate(100%, 0) rotate(90deg);
+      transform-origin: 0 0;
+      top: 0;
+      right: 0;
+   }*/
+}
