@@ -53,9 +53,10 @@ p {
    text-align: justify;
    text-justify: inter-word;
 }
-#contactme .wrapper {
-   display: inline-flex;
-   column-gap: .7em;
+#content #hello img {
+   width: 25%;
+   border-radius: 50%;
+   border: 5px solid rgb(24, 24, 24);
 }
 
 /* footer css */
